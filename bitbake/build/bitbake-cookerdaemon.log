@@ -1,0 +1,115 @@
+1600 11:20:24.872352 --- Starting bitbake server pid 1600 at 2021-01-04 11:20:24.872324 ---
+1600 11:20:24.908031 Started bitbake server pid 1600
+1600 11:20:24.908581 Entering server connection loop
+1600 11:20:24.909196 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+1600 11:20:24.922781 Processing Client
+Traceback (most recent call last):
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/bin/bitbake-server", line 53, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 550, in execServer
+    server.run()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 108, in run
+    ret = self.main()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 169, in main
+    ui_fds = recvfds(self.controllersock, 3)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 633, in recvfds
+    raise RuntimeError('received %d items of ancdata' %
+RuntimeError: received 0 items of ancdata
+DEBUG: BBCooker starting 1609777224.877786
+DEBUG: BBCooker pyinotify1 1609777224.8959246
+DEBUG: BBCooker pyinotify2 1609777224.8963113
+DEBUG: BBCooker pyinotify3 1609777224.9070935
+DEBUG: BBCooker pyinotify complete 1609777224.907488
+DEBUG: BBCooker startup complete 1609777224.9077268
+1608 11:20:30.300532 --- Starting bitbake server pid 1608 at 2021-01-04 11:20:30.300507 ---
+1608 11:20:30.330209 Started bitbake server pid 1608
+1608 11:20:30.330671 Entering server connection loop
+1608 11:20:30.331245 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+1608 11:20:30.341702 Processing Client
+Traceback (most recent call last):
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/bin/bitbake-server", line 53, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 550, in execServer
+    server.run()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 108, in run
+    ret = self.main()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 169, in main
+    ui_fds = recvfds(self.controllersock, 3)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 633, in recvfds
+    raise RuntimeError('received %d items of ancdata' %
+RuntimeError: received 0 items of ancdata
+DEBUG: BBCooker starting 1609777230.305537
+DEBUG: BBCooker pyinotify1 1609777230.3179789
+DEBUG: BBCooker pyinotify2 1609777230.3183513
+DEBUG: BBCooker pyinotify3 1609777230.329293
+DEBUG: BBCooker pyinotify complete 1609777230.3296647
+DEBUG: BBCooker startup complete 1609777230.3299038
+1613 11:20:35.680272 --- Starting bitbake server pid 1613 at 2021-01-04 11:20:35.680245 ---
+1613 11:20:35.711037 Started bitbake server pid 1613
+1613 11:20:35.711535 Entering server connection loop
+1613 11:20:35.712138 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+1613 11:20:35.722414 Processing Client
+Traceback (most recent call last):
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/bin/bitbake-server", line 53, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 550, in execServer
+    server.run()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 108, in run
+    ret = self.main()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 169, in main
+    ui_fds = recvfds(self.controllersock, 3)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 633, in recvfds
+    raise RuntimeError('received %d items of ancdata' %
+RuntimeError: received 0 items of ancdata
+DEBUG: BBCooker starting 1609777235.684667
+DEBUG: BBCooker pyinotify1 1609777235.6979136
+DEBUG: BBCooker pyinotify2 1609777235.6983328
+DEBUG: BBCooker pyinotify3 1609777235.7101176
+DEBUG: BBCooker pyinotify complete 1609777235.710517
+DEBUG: BBCooker startup complete 1609777235.7107546
+1618 11:20:41.059894 --- Starting bitbake server pid 1618 at 2021-01-04 11:20:41.059868 ---
+1618 11:20:41.087391 Started bitbake server pid 1618
+1618 11:20:41.087930 Entering server connection loop
+1618 11:20:41.088447 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+1618 11:20:41.101318 Processing Client
+Traceback (most recent call last):
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/bin/bitbake-server", line 53, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 550, in execServer
+    server.run()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 108, in run
+    ret = self.main()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 169, in main
+    ui_fds = recvfds(self.controllersock, 3)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 633, in recvfds
+    raise RuntimeError('received %d items of ancdata' %
+RuntimeError: received 0 items of ancdata
+DEBUG: BBCooker starting 1609777241.0643356
+DEBUG: BBCooker pyinotify1 1609777241.0760262
+DEBUG: BBCooker pyinotify2 1609777241.0764039
+DEBUG: BBCooker pyinotify3 1609777241.0864596
+DEBUG: BBCooker pyinotify complete 1609777241.086846
+DEBUG: BBCooker startup complete 1609777241.0870903
+1624 11:20:57.342021 --- Starting bitbake server pid 1624 at 2021-01-04 11:20:57.341995 ---
+1624 11:20:57.370235 Started bitbake server pid 1624
+1624 11:20:57.370701 Entering server connection loop
+1624 11:20:57.371280 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+1624 11:20:57.381638 Processing Client
+Traceback (most recent call last):
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/bin/bitbake-server", line 53, in <module>
+    bb.server.process.execServer(lockfd, readypipeinfd, lockname, sockname, timeout, xmlrpcinterface)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 550, in execServer
+    server.run()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 108, in run
+    ret = self.main()
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 169, in main
+    ui_fds = recvfds(self.controllersock, 3)
+  File "/mnt/c/Users/bigsl/Desktop/workspace/bitbake/lib/bb/server/process.py", line 633, in recvfds
+    raise RuntimeError('received %d items of ancdata' %
+RuntimeError: received 0 items of ancdata
+DEBUG: BBCooker starting 1609777257.3464375
+DEBUG: BBCooker pyinotify1 1609777257.3587143
+DEBUG: BBCooker pyinotify2 1609777257.3590827
+DEBUG: BBCooker pyinotify3 1609777257.3692973
+DEBUG: BBCooker pyinotify complete 1609777257.3696973
+DEBUG: BBCooker startup complete 1609777257.3699327
